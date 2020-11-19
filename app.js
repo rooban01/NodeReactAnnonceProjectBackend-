@@ -51,7 +51,7 @@ const fileFilter = (req, file, cb) => {
 }
 
 
-const MONGODB_URI = 'mongodb+srv://rooban:XXU5nuLZZlpKulwu@cluster0.8dcfw.mongodb.net/messages?retryWrites=true&w=majority';
+const MONGODB_URI = 'mongodb+srv://net/messages?retryWrites=true&w=majority';
 
 // app.use(bodyParser.urlencoded()); // x-www-form-urlencoded <form>
 app.use(bodyParser.json()); // application/json
